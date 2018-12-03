@@ -1,29 +1,15 @@
 # vue-pwa-eg
 
-## Project setup
-```
-yarn install
-```
+just simple pwa app, not vuex or router
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+https://naturaily.com/blog/pwa-vue-cli-3
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+html abilities
+https://whatwebcando.today/
 
-### Run your tests
-```
-yarn run test
-```
+for splash screen
+https://appsco.pe/developer/splash-screens
+not iOS?
 
-### Lints and fixes files
-```
-yarn run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
