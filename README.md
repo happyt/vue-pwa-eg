@@ -11,5 +11,6 @@ for splash screen
 https://appsco.pe/developer/splash-screens
 not iOS?
 
+https://stackoverflow.com/questions/51214220/vue-cli-3-how-to-use-the-official-pwa-plugin-service-worker
 
 
