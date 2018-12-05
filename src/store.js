@@ -36,24 +36,18 @@ export default new Vuex.Store({
   actions: {
     loadMeetups ({commit}) {
       commit('setLoading', true)
-      firebase.database().ref('meetups').once('value')
-      .then((data) => {
+      firebase.database().ref('meetups').on('value', (data) => {
         const scores = []
         const obj = data.val()
         for (let key in obj) {
-          console.log(key)
+          console.log(obj[key].location)
           scores.push({
             title: obj[key].title
           })
         }
-        commit('setLoadedScores', scores)
+      //  commit('setLoadedScores', scores)
         commit('setLoading', false)
       }) 
-      .catch ( (error) => {
-          console.log(error)
-          commit('setLoading', false)
-        }
-      )
     }
   }
 })
